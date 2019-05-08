@@ -5,15 +5,15 @@ Run pdfpc from the container without really installing it.
 
 Running without installation:
 ```
-singularity run shub://truatpasteurdotfr/singularity-docker-debian9-pdfpc
+singularity run library://tru/default/singularity-docker-debian9-pdfpc
 ```
 Building:
 ```
-sudo singularity build singularity-docker-debian9-pdfpc.simg Singularity
+sudo singularity build singularity-docker-debian9-pdfpc.sif Singularity
 ```
 or use the provided `build.sh` script.
 
 Download and rename:
 ```
-singularity pull --name "pdfpc.simg" shub://truatpasteurdotfr/singularity-docker-debian9-pdfpc
+singularity pull --name "pdfpc.sif" library://tru/default/singularity-docker-debian9-pdfpc
 ```
